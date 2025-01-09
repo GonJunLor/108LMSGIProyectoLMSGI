@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapas de imagenes</title>
+    <style>
+        img{
+            width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mapa de castilla y leon</h1>
+    <img src="images/mapa.png" alt="Mapa de las provincias de castilla y leon" usemap="#provincias">
+    <map name="provincias">
+        <area shape="rect" coords="0%,200%,250%,400%" href="https://es.wikipedia.org/wiki/Zamora" alt="Zamora">
+        <area shape="rect" coords="500%,200%,800%,450%" href="https://es.wikipedia.org/wiki/Soria" alt="Soria">
+    </map>
+
+    <script>
+        // codigo jaavascript para modificar las coordenadas de los elementos de area
+        // Define variables para las coordenadas en porcentaje
+        var rectCoords = ["20%", "30%", "80%", "50%"];
+        var circleCoords = ["50%", "50%", "20%"];
+
+        // Convertir porcentaje a píxeles en función del tamaño de la imagen
+        var img = document.getElementById("imagen");
+        var rectCoordsPx = rectCoords.map(function(coord, index) {
+            return (index % 2 === 0 ? img.clientWidth : img.clientHeight) * parseFloat(coord) / 100;
+        });
+        var circleCoordsPx = circleCoords.map(function(coord, index) {
+            return (index % 2 === 0 ? img.clientWidth : img.clientHeight) * parseFloat(coord) / 100;
+        });
+
+        // Aplicar las coordenadas en píxeles a las áreas
+        document.getElementById("area1").coords = rectCoordsPx.join(",");
+        document.getElementById("area2").coords = circleCoordsPx.join(",");
+    </script>
+</body>
+</html>

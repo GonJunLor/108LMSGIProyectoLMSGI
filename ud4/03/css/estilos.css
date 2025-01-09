@@ -1,0 +1,22 @@
+programmingLanguages{
+    border: 2px solid brown;
+    display: flex;
+    margin: 2px;
+    padding: 5px;
+}
+lenguaje{
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+description{
+    color:red;
+    border: 2px solid greenyellow;
+    display: block;
+    margin-bottom: 5px;
+}
+example{
+    background-color: rgb(202, 202, 202);
+    display: block;
+    padding: 10px;
+}

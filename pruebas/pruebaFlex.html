@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #caja div{
+        border:1px solid green;
+        }
+        #caja{
+        padding:5px;
+        border:1px solid red;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:stretch;
+        flex-grow: 1;
+        }
+        #caja div:nth-child(1){
+            /*flex-basis: 25%;*/
+            flex-grow: 1;
+        }
+        #caja div:nth-child(2){
+            /*flex-basis: 25%;*/
+            flex-grow: 2;
+        }
+        #caja div:nth-child(3){
+            /*flex-basis: 25%;*/
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="caja">
+        <div>Uno</div>
+        <div>Dos<br>Dos<br>Dos<br>Dos<br></div>
+        <div>Tres</div>
+      </div>
+</body>
+</html>

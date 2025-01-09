@@ -1,0 +1,127 @@
+:root {
+    --colorFondo1: #ffffff;
+    --colorFondo2: #f3f3f3;
+    --colorFondo3: #bfc9cd;
+    --colorFondo4: black;
+  
+    --colorBorde: #c5c5c5;
+    --radioBorde: 6px;
+    --anchoBorde: 1px;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+/* Cabecera */
+#aviso{
+    background-color: var(--colorFondo4);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+h1{
+    background-color: var(--colorFondo1);
+    padding: 15px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header{
+    border-bottom: var(--colorBorde) solid var(--anchoBorde);
+    padding-bottom: 20px;
+}
+header>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+input[alt="Logo perro y gato"]{
+    border: none;
+    width: 10%;
+}
+
+/* Formulario */
+#reg_animal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+fieldset{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid var(--colorBorde);
+    border-radius: 5px;
+}
+fieldset legend{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+fieldset div{
+    padding: 5px 0px;
+}
+input[required]{
+    background-color: var(--colorFondo2);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    outline: none; /* Para que no cambie el borde al seleccionar este cuadro de texto*/
+}
+input, textarea, select{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    outline: none; /* Para que no cambie el borde al seleccionar este cuadro de texto*/
+}
+#login div{
+    display: flex;
+    justify-content:end;
+    
+}
+#Datos_propietario div{
+    display: flex;
+    justify-content: space-between;
+}
+#Tratamiento div:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+}
+input[type="submit"], input[type="reset"]{
+    border: 1px solid var(--colorBorde);
+    background-color: var(--colorFondo3);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 30vw;
+    transition: background-color 0.5s ease; /* Transición suave del color de fondo*/
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+    border: 1px solid var(--colorBorde);
+    background-color: var(--colorFondo1);
+    text-transform: uppercase;
+}
+/* Footer */
+body>footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    background-color: var(--colorFondo3);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+body>footer>div:first-child{
+    display: flex;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+#w3c{
+    display: flex;
+    justify-content: center;
+}
+#w3c>img{
+    width: 50px;
+}

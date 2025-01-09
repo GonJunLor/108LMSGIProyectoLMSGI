@@ -1,0 +1,98 @@
+:root{
+    --color1:white;
+    --color2:#88c0d0;
+    --color3:#f5f5f5;
+    --color4: black;
+
+    --fuenteTexto: Sofia,sans-serif;
+
+    --anchofotos: 250px;
+    --altofotos: 250px;
+    --bordeRadioGeneral: 8px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fuenteTexto);
+}
+body{
+    background-color: var(--color3);
+}
+
+/* Cabecera */
+body>header{
+    background-color: var(--color2);
+    padding: 10px 10px 20px 10px;
+}
+section{
+    background-color: var(--color1);
+    border-radius: var(--bordeRadioGeneral);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* sombreado */
+    margin-bottom: 10px;
+}
+h1{
+    font-size:xx-large;
+    letter-spacing: 10px; /* Para añadir espacio entre letras */
+}
+img[alt="Logo de casita con perro y gato"]{
+    display: none; /* Ocultar etiqueta, ocultar imagen */
+}
+img[alt="Logo con el texto clinica veterinaria"]{
+    width: 30%;
+    height: 30%;
+}
+
+/* Secciones */
+
+.multimedia{
+    display: flex;
+    flex-direction: row;
+}
+.multimedia *{
+    background-color: var(--color4);
+    width: var(--anchofotos);
+    height: var(--altofotos);
+    margin: 5px;
+}
+main>section:nth-child(1) .multimedia *{ 
+    /* He seleccionado el primer section dentro del main y dentro de este todos los
+    elementos que estan dentro de una etiqueta con la clase multimedia */
+    border-radius: var(--bordeRadioGeneral);
+}
+#audios{
+    display: flex;
+}
+#audios *{
+    width: var(--anchofotos);
+    margin: 0px 5px;
+    font-size: small;
+}
+/* Pie de página */
+body>footer{
+    background-color: var(--color2);
+    color: var(--color3);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+body>footer a{
+    text-decoration: none;
+    font-style: normal;
+    color: var(--color3);
+}
+body>footer a:visited{
+    text-decoration: none;
+    font-style:normal;
+    color: var(--color3);
+}
+#w3c{
+    display: flex;
+    justify-content: center;
+}
+#w3c>img{
+    width: 50px;
+}

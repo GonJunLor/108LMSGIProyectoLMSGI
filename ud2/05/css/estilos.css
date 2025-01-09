@@ -1,0 +1,121 @@
+:root {
+    --color1: #00686c;
+    --color2: #32c2b9;
+    --color3: #edecb3;
+    /* color del texto */
+    --color4: #fad928;
+    --color5: #ff9915;
+
+    --colorFondo1: #ffffff;
+    --colorFondo2: #f3f3f3;
+    --colorFondo3: #bfc9cd;
+    --colorFondo4: black;
+  
+    --colorBorde: #c5c5c5;
+    --radioBorde: 6px;
+    --anchoBorde: 1px;
+}
+body{
+    margin: 0;
+}
+/* Cabecera */
+#aviso{
+    background-color: var(--colorFondo4);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+h1{
+    background-color: var(--colorFondo1);
+    border-bottom: var(--colorBorde) solid var(--anchoBorde);
+    padding: 15px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body>div{
+    text-align: center;
+}
+div>div>div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: 8px;
+    background-repeat: no-repeat;
+}
+div>div>div{
+    background-size: 15px;
+    background-color: var(--color2);
+}
+div>div>div:hover{
+    background-color: var(--color3);
+}
+div>div:nth-child(1)>div{
+    background-image: url('../images/punto.png');
+    background-position: center, center;
+}
+div>div:nth-child(2)>div{
+    background-image: url('../images/punto.png'), url('../images/punto.png');
+    background-position: 10% 10%, 90% 90%;
+}
+div>div:nth-child(3)>div{
+    background-image: url('../images/punto.png'), 
+    url('../images/punto.png'),
+    url('../images/punto.png');
+    background-position: 10% 10%, 50% 50%, 90% 90%;
+}
+div>div:nth-child(4)>div{
+    background-image: url('../images/punto.png'), 
+    url('../images/punto.png'),
+    url('../images/punto.png'),
+    url('../images/punto.png');
+    background-position: 10% 10%, 90% 10%, 90% 90%, 10% 90%;
+}
+div>div:nth-child(5)>div{
+    background-image: url('../images/punto.png'), 
+    url('../images/punto.png'),
+    url('../images/punto.png'),
+    url('../images/punto.png'),
+    url('../images/punto.png');
+    background-position: 10% 10%, 90% 10%, 50% 50%, 90% 90%, 10% 90%;
+}
+div>div:nth-child(6)>div{
+    background-image: url('../images/punto.png'), 
+    url('../images/punto.png'),
+    url('../images/punto.png'),
+    url('../images/punto.png'),
+    url('../images/punto.png'),
+    url('../images/punto.png');
+    background-position: 10% 10%, 90% 10%, 10% 50%, 90% 50%, 90% 90%, 10% 90%;
+}
+/* Footer */
+body>footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    background-color: var(--colorFondo3);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+body>footer>div:first-child{
+    display: flex;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+#w3c{
+    display: flex;
+    justify-content: center;
+}
+#w3c>img{
+    width: 50px;
+}

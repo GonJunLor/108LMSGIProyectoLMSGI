@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando con tablas</title>
+    <style>
+        table{border: 1px solid black;}
+        td,th{border: 1px solid orange;}
+        caption{color: orange;}
+    </style>
+</head>
+<body>
+    <header><h1>Otra vez trabajando con tablas</h1></header>
+    <article>
+        <h2>Tabla 1</h2>
+        <table>
+            <caption>Tabla de ejemplo</caption>
+            <colgroup span="1" style="background-color: aquamarine;">
+            <colgroup span="1" style="background-color: beige;">
+            <thead>
+                <tr>
+                    <th>Mes</th>
+                    <th>Precipitación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Enero</th>
+                    <td>23.5</td>
+                </tr>
+                <tr>
+                    <th>Febrero</th>
+                    <td>7.5</td>
+                </tr>
+                <tr>
+                    <th>Marzo</th>
+                    <td>82</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <td>113</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Tabla2</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Celda</td>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Celda</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Tabla3</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Celda</td>
+                    <td rowspan="2">Celda rs2</td>
+                    <td rowspan="3">Celda rs3</td>
+                    <td rowspan="4">Celda rs3</td>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Tabla4</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2" rowspan="2">Celda cs2 rs2</td>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* Colores para usar en la página */
+:root{
+    --grisClaro:#f8f9fa;
+    --grisOscuro:#343a40;
+    --azul:#007bff;
+    --grisMasClaro:#e0e0e0;
+    --azulMasOscuro:#0056b3;
+}
+/* Ajustes generales */
+body{
+    width: 640px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* Imagen de fondo fija */
+    background-image: url("../media/images/banner.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:100% 0%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Estilos para el header */
+header{
+    background-color: var(--grisOscuro);
+    color: var(--grisClaro);
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+h1{
+    font-family: 'Roboto';
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: var(--grisOscuro);
+    color: var(--grisClaro);
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: sticky;
+    top: 0;
+}
+nav>ul{
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left:20%
+}
+nav a{
+    color: #f8f9fa;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+/* Estilos para las secciones */
+section{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    text-decoration: overline;
+}
+/* Estilos para los articulos */
+h3{
+    font-family: 'Merriweather';
+    font-size: 1.25em;
+}
+figure{
+    max-width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+figcaption{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+/* Estilos para el footer */
+footer{
+    background-color: var(--grisOscuro);
+    color: var(--grisClaro);
+    padding: 20px 10px;
+    text-align: center;
+}
+footer ul{
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left:20%
+}
+footer a{
+    color: var(--azul);
+}
+footer a:hover{
+    color: var(--azulMasOscuro);
+    text-decoration:underline;
+}
+#w3c{
+    display: flex;
+    justify-content: center;
+}
+#w3c>img{
+    width: 50px;
+}

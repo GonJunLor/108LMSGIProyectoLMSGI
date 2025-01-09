@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--
+    Autor: Gonzalo Junquera Lorenzo
+    Fecha modificación: 26/11/2024
+    Descripción: Uso de etiquetas relacionadas con formularios con tema de clínica veterinaria
+-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uso de etiquetas relacionadas con formularios con tema de clínica veterinaria">
+    <meta name="author" content="Gonzalo Junquera Lorenzo">
+    <meta name="keywords" content="veterinario, animales, medicina">
+    <meta name="generator" content="visual studio code">
+    <meta name="robots" content="index,nofollow">
+    <link rel="icon" type="image/png" href="../../media/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="../../css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Ud2.03 Gonzalo Junquera Lorenzo</title>
+</head>
+<body>
+    <header>
+        <div id="aviso">Unidad Didáctica 02 - Actividad 03</div>
+        <div>
+            <input type="image" src="images/logo200x181.png" alt="Logo perro y gato">
+            <h1>Plantilla de formulario de Clinica Veterinaria</h1>
+        </div>
+    </header>
+    <main>
+        <form id="reg_animal" action="#valida.php" method="get">
+            <input type="hidden" name="Surcursal" value="Benavente">
+            <fieldset id="login">
+                <legend>Login</legend>
+                <div><label for="Usuario">Usuario: <input type="text" name="Usuario" id="Usuario" required ></label></div>
+                <div><label for="contrasena">Contraseña: <input type="password" name="contrasena" id="contrasena" required></label></div>
+            </fieldset>           
+            <fieldset id="Datos_propietario">
+                <legend>Datos propietario</legend>
+                <div>
+                    <label for="nombre">Nombre: <input type="text" name="nombre" id="nombre"></label>
+                    <label for="apellidos">Apellidos: <input type="text" name="apellidos" id="apellidos"></label>
+                </div>
+                <div>
+                    <label for="email_prop">Email: <input type="email" name="email_prop" id="email_prop"> </label>
+                    <label for="tel_prop">Teléfono: <input type="tel" name="tel_prop" id="tel_prop"> </label>
+                </div>
+                <div><label for="calle">Calle: <textarea name="calle" id="calle" cols="60" rows="1"></textarea> </label></div>
+                <div>
+                    <label for="num_calle">Nº <input type="number" name="num_calle" id="num_calle"> </label>
+                    <label for="cod_postal">Codigo postal: <input type="number" name="cod_postal" id="cod_postal"></label>
+                </div>
+                <div>
+                    <label for="provincia">Provincia </label>
+                    <select name="provincia" id="provincia" >
+                        <option value="Ávila">Ávila</option>
+                        <option value="Burgos">Burgos</option>
+                        <option value="León">León</option>
+                        <option value="Palencia">Palencia</option>
+                        <option value="Salamanca">Salamanca</option>
+                        <option value="Segovia">Segovia</option>
+                        <option value="Soria">Soria</option>
+                        <option value="Valladolid">Valladolid</option>
+                        <option value="Zamora">Zamora</option>
+                    </select>
+                    <label for="poblacion">Población  <input list="poblaciones" id="poblacion"></label>
+                    <datalist id="poblaciones">
+                        <option value="Ávila">
+                        <option value="Arroyo de la Encomienda">
+                        <option value="Aranda de Duero">
+                        <option value="Astorga">
+                        <option value="Béjar">
+                        <option value="Benavente">
+                        <option value="Burgos">
+                        <option value="Ciudad Rodrigo">
+                        <option value="Laguna de Duero">
+                        <option value="León">
+                        <option value="Medina del Campo">
+                        <option value="Miranda de Ebro">
+                        <option value="Palencia">
+                        <option value="Ponferrada">
+                        <option value="Salamanca">
+                        <option value="San Andrés del Rabanedo">
+                        <option value="Santa Marta de Tormes">
+                        <option value="Segovia">
+                        <option value="Soria">
+                        <option value="Valladolid">
+                        <option value="Villaquilambre">
+                        <option value="Zamora">
+                    </datalist>
+                </div>
+                <div>
+                    <label for="red_social">URL de red social <input type="url" name="red_social" id="red_social"></label>
+                </div>
+            </fieldset>
+            <fieldset id="Datos_paciente_animal">
+                <legend>Datos paciente animal</legend>
+                <div>
+                    <label for="nom_animal">Nombre <input type="text" name="nom_animal" id="nom_animal"></label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="tipo_gato"><input type="radio" name="tipo_animal" id="tipo_gato" value="Gato">Gato</label>
+                    <label for="tipo_perro"><input type="radio" name="tipo_animal" id="tipo_perro" value="Perro">Perro</label>
+                    <label for="tipo_serpiente"><input type="radio" name="tipo_animal" id="tipo_serpiente" value="Serpiente">Serpiente</label>
+                </div>
+                <div>
+                    <label for="nacimiento">Fecha de nacimiento: <input type="date" name="nacimento" id="nacimiento"></label>
+                </div>
+                <div>
+                    <label for="peso_animal">Peso: 0<input type="range" name="peso_animal" id="peso_animal" min="0" max="50" step="5">50</label>
+                    <label for="color_animal">Color ojos: <input type="color" name="color_animal" id="color_animal"></label>
+                </div>
+                <div>
+                    <label for="foto_animal">Foto de la mascotas: </label>
+                    <input type="file" name="foto_animal" id="foto_animal">
+                </div>
+                <div>
+                    <label for="descripcion">Descripción de los sintomas: <br> <textarea name="descripcion" id="descripcion" cols="60" rows="5"></textarea></label>
+                </div>
+            </fieldset>
+            <fieldset id="Tratamiento">
+                <legend>Tratamiento</legend>
+                <div>
+                    <label for="desparasitar"><input type="checkbox" name="dar_tratamiento" id="desparasitar"> Pastilla desparasitar</label>
+                    <input list="dias_semana"><input list="periodicidad">
+                </div>
+                <div>
+                    <label for="vacuna_rabia"><input type="checkbox" name="dar_tratamiento" id="vacuna_rabia"> Vacuna de la rabia</label>
+                    <input list="dias_semana"><input list="periodicidad">
+                </div>
+                <div>
+                    <label for="calmante"><input type="checkbox" name="dar_tratamiento" id="calmante"> Calmante</label>
+                    <input list="dias_semana"><input list="periodicidad">
+                    <label for="duracion_calmante">, Duracion hasta <input type="week" name="duracion" id="duracion_calmante"></label>
+                </div>
+                <div>
+                    <label for="otro_tratamiento"> 
+                        <input type="checkbox" name="dar_tratamiento" id="otro_tratamiento"> Otro tratamiento 
+                    </label>
+                    <input type="search" name="busqueda" id="busqueda">
+                    <label for="periodo"> cada <input list="dias_semana" id="periodo"></label>
+                    <label for="duracion_otro">, Duracion hasta <input type="week" name="duracion" id="duracion_otro"></label>
+                    <datalist id="dias_semana">
+                        <option value="cada 1">
+                        <option value="cada 2">
+                        <option value="cada 3">
+                        <option value="cada 4">
+                        <option value="cada 5">
+                        <option value="cada 6">
+                        <option value="cada 7">
+                    </datalist>
+                    <datalist id="periodicidad">
+                        <option value="dias">
+                        <option value="meses">
+                        <option value="años">
+                    </datalist>
+                </div>
+                <div>
+                    <label for="sig_revision">Siguiente revisión en <input type="month" name="sig_revision" id="sig_revision"></label>
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </div>
+        </form>
+    </main>
+    <footer>
+        2024-25 IES LOS SAUCES. &#169;Todos los derechos reservados. 
+        <a href="../../index.html">
+            <address style="display: inline;">Gonzalo Junquera Lorenzo</address> 
+        </a>
+        <time datetime="2024-11-26">26-11-2024</time>
+        <a id="w3c" href="https://validator.w3.org/check?uri=https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/03/index.html">          
+            <img src="/webroot/media/images/W3C.png" alt="Validado por W3C" >        
+        </a>
+    </footer>
+</body>
+</html>

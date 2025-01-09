@@ -1,0 +1,149 @@
+:root{ /* Variables con los colores a usar en el documento*/
+    --azulOscuro: #134678;
+    --azulCLaro: #2980b9;
+    --bordeAS: #134678;
+    --celdas: #ecf0f1;
+    --recreo: #f39c12;
+    --textBlanco: white;
+    --textNegro: black;
+}
+body{ /* Reseteo de margin y padding y ancho máximo de la página */
+    margin: 0 auto;
+    padding: 0;
+    width: 1024px;
+    color: var(--textBlanco);
+}
+/* Estilos para el header */
+header{
+    background-color: var(--azulOscuro);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+}
+header>div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: var(--azulOscuro);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 40px;
+    position: sticky;
+    top: 0;
+}
+nav>ul{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+li>a{
+    text-decoration: none;
+    color: var(--textBlanco);
+}
+li>a:hover{
+    color: var(--azulCLaro);
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+
+/* Estilos para los horarios */
+main>section, main>section>article{
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--bordeAS);
+    padding: 0px 10px 10px 10px;
+}
+section>h2{
+    text-decoration: overline;
+    color: var(--textNegro);
+    text-transform: uppercase;
+}
+article>h3{
+    color: var(--azulCLaro);
+    text-align: center;
+}
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+tr, td, th{
+    border: none;
+    height: 3em;
+    text-align: center;
+}
+th{
+    background-color: var(--azulCLaro);
+}
+td{
+    background-color: var(--celdas);
+}
+td>abbr>b{
+    color: var(--azulCLaro);
+}
+td>i{
+    color: var(--textNegro);
+}
+td[colspan="5"]{
+    background-color: var(--recreo);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+article>footer{
+    color: var(--textNegro);
+    padding-top: 10px;
+}
+
+
+/* Estilos para el footer */
+body>footer{
+    background-color: var(--azulOscuro);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer>table>caption{
+    padding-bottom: 10px;
+}
+footer>table>tbody>tr>td{
+    color: var(--azulCLaro);
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+footer>table>thead>tr>th{
+    padding-left: 10px;
+}
+body>footer a{
+    text-decoration: none;
+    color:aqua;
+}
+body>footer a:visited{
+    text-decoration: none;
+    color: yellowgreen;
+}
+#w3c{
+    display: flex;
+    justify-content: center;
+}
+#w3c>img{
+    width: 55px;
+}
+/* Botón de la casa */
+img[alt="botonCasa"]{
+    width: 100px;
+    position: fixed;
+    left: 90%;
+    bottom: 10px;
+}
