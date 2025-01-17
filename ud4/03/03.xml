@@ -4,7 +4,8 @@
     Fecha de modificación 02/12/2024-->
 <!DOCTYPE programmingLanguages SYSTEM "03.dtd">
 <?xml-stylesheet type="text/css" href="css/estilos.css"?>
-<programmingLanguages>
+<programmingLanguages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="03.xsd">
     <lenguaje name="Python">
         <description>
             Descripción: Python es un lenguaje de programación interpretado, de alto nivel y de propósito general.

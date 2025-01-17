@@ -23,8 +23,13 @@
     <!ELEMENT mensaje (#PCDATA|p|strong|h2|h3|ul|li)*>
     <!ELEMENT ficheros_adjuntos (fichero+)>
     <!ELEMENT mail (remitente,destinatarios,fechamensaje,asunto?,mensaje,ficheros_adjuntos?)>
+    <!ATTLIST mail 
+    xmlns:xsi CDATA #IMPLIED 
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED 
+>
 ]>
-<mail>
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="01.xsd">
     <remitente>pepe@gmail.com</remitente>
     <destinatarios>
         <destinatario>maria@gmail.com</destinatario>
