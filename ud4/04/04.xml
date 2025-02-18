@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE universidad SYSTEM "04.dtd">
-<universidad>
+<universidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="04.xsd">
 
     <nombre year="1964">Universidad de Victoria</nombre>
 	<fechaconstruccion>14/03/1964</fechaconstruccion>

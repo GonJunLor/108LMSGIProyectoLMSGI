@@ -32,3 +32,7 @@ beca (si) #IMPLIED>
 <!ELEMENT sexo (#PCDATA)>
 <!ELEMENT estudios (carrera,asignaturas,proyecto?)>
 <!ELEMENT proyecto (#PCDATA)>
+<!ATTLIST universidad 
+    xmlns:xsi CDATA #IMPLIED 
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED 
+>
