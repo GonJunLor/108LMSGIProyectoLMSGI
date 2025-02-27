@@ -77,7 +77,23 @@
 			"saxonJar": "${config:XSLT.tasks.saxonJar}",
 			"xsltFile": "${workspaceFolder}/ud5/06/src/06.xsl",
 			"xmlSource": "${workspaceFolder}/ud5/06/input/06.xml",
-			"resultPath": "${workspaceFolder}/ud5/06/target/index.txt",
+			"resultPath": "${workspaceFolder}/ud5/06/target/index.yaml",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: 07.Prediccion",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/ud5/07/src/prediccion.xsl",
+			"xmlSource": "${workspaceFolder}/ud5/07/input/prediccion.xml",
+			"resultPath": "${workspaceFolder}/ud5/07/target/prediccion.html",
 			"allowSyntaxExtensions40": "off",
 			"messageEscaping": "adaptive",
 			"group": {
