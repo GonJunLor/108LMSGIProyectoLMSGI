@@ -1,0 +1,4 @@
+network:
+  ethernets:enp0s3
+  ethernets:enp0s8
+  ethernets:enp0s9
