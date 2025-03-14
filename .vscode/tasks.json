@@ -1,0 +1,125 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt",
+			"label": "xslt: 02.Universidad (New)",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${command:xslt-xpath.pickXsltFile}",
+			"xmlSource": "${workspaceFolder}/ud5/02/input/alumnos.xml",
+			"resultPath": "${workspaceFolder}/ud5/02/target/index.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: 03.Tickets",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/ud5/03/src/03.xsl",
+			"xmlSource": "${workspaceFolder}/ud5/03/input/03.xml",
+			"resultPath": "${workspaceFolder}/ud5/03/target/index.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: 04.Preguntas",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/ud5/04/src/04.xsl",
+			"xmlSource": "${workspaceFolder}/ud5/04/input/test.xml",
+			"resultPath": "${workspaceFolder}/ud5/04/target/index.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			],
+			"parameters": [
+                {
+                    "name":"corregido",
+                    "value": "no"
+                }
+            ]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: 05.XML a XML",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/ud5/05/src/05.xsl",
+			"xmlSource": "${workspaceFolder}/ud5/05/input/05.xml",
+			"resultPath": "${workspaceFolder}/ud5/05/target/index.xml",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: 06.XML a TXT",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/ud5/06/src/06.xsl",
+			"xmlSource": "${workspaceFolder}/ud5/06/input/06.xml",
+			"resultPath": "${workspaceFolder}/ud5/06/target/index.yaml",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: 07.Prediccion",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/ud5/07/src/prediccion.xsl",
+			"xmlSource": "${workspaceFolder}/ud5/07/input/prediccion.xml",
+			"resultPath": "${workspaceFolder}/ud5/07/target/prediccion.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		}
+		,
+		{
+			"type": "xslt",
+			"label": "xslt: Ex2ev02 a Web",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/examenes/refuerzoEx2ev02/src/FmAWeb.xsl",
+			"xmlSource": "${workspaceFolder}/examenes/refuerzoEx2ev02/input/JoaquinSabina.xml",
+			"resultPath": "${workspaceFolder}/examenes/refuerzoEx2ev02/target/NuevoJoaquinSabina.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		}
+	]
+	
+}
