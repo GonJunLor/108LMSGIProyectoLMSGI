@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT inventario (objeto+)>
+<!ELEMENT objeto (mesa | ordenador)>
+<!-- No se como poner lo de 2 letras y 4 numeros.
+No se puede poner patrones, solo en xsd -->
+<!ATTLIST objeto codigo CDATA #IMPLIED>
+<!ELEMENT mesa (tipo?,localizacion)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT localizacion (#PCDATA)>
+<!ELEMENT ordenador (procesador?,memoria?,discoduro)>
+<!ELEMENT procesador (#PCDATA)>
+<!-- donde pongo que por defecto sea Intel en el atributo fabricante. 
+No se puede poner a la vez el valor por defecto con implied o required-->
+<!ATTLIST procesador fabricante (Intel|Amd) #IMPLIED> 
+<!ELEMENT memoria (#PCDATA)>
+<!ATTLIST memoria unidad CDATA #FIXED "Gb">
+<!ELEMENT discoduro (#PCDATA)>
+<!-- donde pongo #REQUIRED? para que sea opcional el atributo tamano. 
+no se puede poner a la vez la lista de opciones con required o implied-->
+<!ATTLIST discoduro tamano (Tb|Gb|Mb) "Gb">

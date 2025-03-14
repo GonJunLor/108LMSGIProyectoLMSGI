@@ -14,7 +14,7 @@
     <!-- La plantilla tiene un nombre que es 'Titulo', el cual se escribe el nombre de ese parametro -->
     <xsl:param name="titulo"/>
         <meta charset="UTF-8"/>
-        <meta name="description" content="Formulario para rellenar datos personales de animales domésticos"/>
+        <meta name="description" content="Trabajando con XSLT"/>
         <meta name="author" content="Gonzalo Junquera Lorenzo"/>
         <meta name="robots" content="index, follow"/>
         <meta name="language" content="es"/>
