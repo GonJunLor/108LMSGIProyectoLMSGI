@@ -29,5 +29,19 @@ jobs:
           put -r ./ /108LMSGIProyectoLMSGI
           bye
           EOF
+      - name: Clean remote folder
+        run: |
+          sftp acc1831091850@home496960781.1and1-data.host <<EOF
+          rm -r /108LMSGIProyectoLMSGI/*
+          bye
+          EOF
+      
+      - name: Deploy using SFTP
+        run: |
+          sftp acc1831091850@home496960781.1and1-data.host <<EOF
+          put -r ./ /108LMSGIProyectoLMSGI/
+          bye
+          EOF
+
 
 
