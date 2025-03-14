@@ -1,9 +1,9 @@
-name: Deploy to IONOS
+name: Deploy to IONOS using SFTP
 
 on:
   push:
     branches:
-      - Master  # O la rama que prefieras desplegar
+      - Master  # Rama que activa el despliegue
 
 jobs:
   deploy:
@@ -22,8 +22,12 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H home496960781.1and1-data.host >> ~/.ssh/known_hosts
 
-      # Paso 3: Subir los archivos al servidor
-      - name: Deploy to server via SFTP
+      # Paso 3: Subir archivos usando SFTP
+      - name: Deploy using SFTP
         run: |
-          rsync -avz --delete ./ acc1831091850@home496960781.1and1-data.host:/108LMSGIProyectoLMSGI
+          sftp acc1831091850@home496960781.1and1-data.host <<EOF
+          put -r ./ /108LMSGIProyectoLMSGI
+          bye
+          EOF
+
 
