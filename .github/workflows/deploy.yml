@@ -25,4 +25,5 @@ jobs:
       # Paso 3: Subir los archivos al servidor
       - name: Deploy to server via SFTP
         run: |
-          rsync -avz --delete ./ acc1831091850:/108LMSGIProyectoLMSGI
+          rsync -avz --delete ./ acc1831091850@home496960781.1and1-data.host:/108LMSGIProyectoLMSGI
+
