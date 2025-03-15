@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/05.xsl"?>
+<root>
+   <row>
+      <Anyo>2012</Anyo>
+      <Concepto>Usuarios registrados </Concepto>
+      <Usuarios_registrados>53577</Usuarios_registrados>
+   </row>
+</root>

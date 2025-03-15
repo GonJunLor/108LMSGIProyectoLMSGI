@@ -1,0 +1,144 @@
+:root{
+    --color1:#2C3E50; /*color de fondo header y footer*/
+    --color2:yellow;/* titulo nivel 1, menú activo,*/
+    --color3:white;
+    --color4:orange; /* titulo nivel 4*/
+    --colorboton: #3498db; /* color boton*/
+    --colorbotonhover: #2980b9;
+    --colorrequired:lightyellow; /*input con atributo required*/
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Estilos generales a todas las paginas */
+body{
+    background-image: url(../media/images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--color3);
+}
+header, footer{
+    background-color: var(--color1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color3);
+}
+.resaltado{
+    color: var(--color2);
+}
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+#menu{
+    display: flex;
+    color: var(--color3);
+}
+#menu li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+h2{
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--color2);
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+/* Inicio */
+table{
+    width: 320px;
+    border: 1px solid var(--color3);
+    border-collapse: collapse;
+}
+th{
+    background-color: var(--color1);
+}
+td, th{
+    border: 1px solid var(--color3);
+    padding: 5px;
+}
+/* Personajes */
+#personajes{
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+}
+#personajes div{
+    border: 1px solid var(--color3);
+    margin-left: 10px;
+    padding: 10px;
+}
+#personajes div h3{
+    color: var(--color4);
+    margin-bottom: 5px;
+}
+
+/* Saga */
+.libro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.libro h3{
+    margin-top: 20px;
+    color: var(--color4);
+}
+.libro>div{
+    display: flex;
+    background-color: var(--color3);
+    color: black;
+    padding: 10px;
+    width: 75vw;
+}
+.libro img{
+    margin-right: 10px;
+}
+
+/* Contacto */
+#contacto{
+    background-color: var(--color1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login{
+    display: flex;
+    flex-direction:column;
+    width: 500px;
+}
+#login label{
+    display: flex;
+    flex-direction: column;
+}
+#login label input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 20PX;
+    padding: 5px;
+}
+input[value="Enviar"]{
+    width: 500px;
+    height: 30px;
+    background-color: var(--colorboton);
+    border: 1px solid var(--colorboton);
+    margin-bottom: 15PX;
+    border-radius: 5PX;
+}
+input[value="Enviar"]:hover{
+    background-color: var(--colorbotonhover);
+}

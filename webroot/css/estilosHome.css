@@ -15,6 +15,7 @@
 
     --anchoArticulo: 23vw;
     --altoArticulo: 30vw;
+    --altoSuperpuesto: 20vw;
 
     /* Combinación de dimensiones para el iframe, funciona al 50% */
     --anchoIframe:calc(var(--anchoArticulo)*3.3);
@@ -145,8 +146,17 @@ article>a>img{
     top: 0; 
     left: 0%;
     width: var(--anchoArticulo);
-    height: var(--altoArticulo);
+    height: var(--altoSuperpuesto);
     z-index: 200; 
+}
+.subtitulo {
+    text-align: center;
+}
+.subtitulo>a {
+    padding-right: 4px;
+}
+.subtitulo>a:hover {
+    background-color: var(--colorFondo3);
 }
 
 /* Pie de pagína */

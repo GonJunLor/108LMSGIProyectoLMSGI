@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nombre: 
+    Descripción Información de un email 
+    Fecha de modificación 02/12/2024-->
+<!DOCTYPE biblioteca SYSTEM "libro.dtd">
+<biblioteca>
+    <libro id="Libro1" genero="novela">
+        <titulo>Punto para los locos</titulo>
+        <autor>
+            <nombre>Susanze</nombre>
+            <apellido>Collins</apellido>
+        </autor>
+        <genero>Novela</genero>
+        <subgenero>Ciencia ficción, aventura, juvenil</subgenero>
+        <tituloOriginal>The Hunger games</tituloOriginal>
+    </libro>
+</biblioteca>
