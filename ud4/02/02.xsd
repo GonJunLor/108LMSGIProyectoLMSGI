@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="libro" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string"/>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="autores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="autor" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string"/>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="apellido">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string"/>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="nacionalidad" minOccurs="0">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string"/>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="anio">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:gYear"/>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+                        <xs:attribute name="genero" type="xs:string" use="optional"/>
+                        <xs:attribute name="referencia" type="xs:IDREF" use="optional"/>
+                        <xs:attribute name="idioma" type="xs:string" use="optional" default="Español"/>
+                        <xs:attribute name="formato" default="impreso" use="optional">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="impreso|digital"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

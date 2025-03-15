@@ -3,7 +3,8 @@
     Descripción Información de un email 
     Fecha de modificación 02/12/2024-->
 <!DOCTYPE biblioteca SYSTEM "02.dtd">
-<biblioteca>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="02.xsd">
     <libro id="Libro1" genero="novela">
         <titulo>Punto para los locos</titulo>
         <autores>

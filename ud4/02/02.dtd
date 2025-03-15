@@ -12,3 +12,7 @@
 <!ATTLIST libro formato (impreso|digital) "impreso">
 <!ATTLIST libro referencia IDREFS #IMPLIED>
 <!ELEMENT biblioteca (libro+)>
+<!ATTLIST biblioteca 
+    xmlns:xsi CDATA #IMPLIED 
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED 
+>

@@ -154,6 +154,7 @@ article>a>img{
 }
 .subtitulo>a {
     padding-right: 4px;
+    text-decoration: none;
 }
 .subtitulo>a:hover {
     background-color: var(--colorFondo3);
