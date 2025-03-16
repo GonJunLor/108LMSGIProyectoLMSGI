@@ -15,6 +15,7 @@
                 <!-- Si no se ponen comillas simples en el select, el texto da error -->
                 <xsl:with-param name="titulo" select="'Sabina : Gonzalo Junquera Lorenzo'"/>
             </xsl:call-template>>
+            <link rel="stylesheet" href="css/estilos.css"/>
         </head>
         <body>
             <header>
@@ -28,12 +29,20 @@
                 <div id="caja_principal">
                     <xsl:for-each select="album">
                         <div class="caja_album">
-                        <!-- 
-                        <img src="{image[@size='large']/text()}" alt="{name/text()}"/>
-                         -->
-                            <img src="" alt="{name/text()}"/>
+                            <!-- 
+                            <img src="{image[@size='large']/text()}" alt="{name/text()}"/>
+                            -->
+                            <xsl:choose>
+                                <xsl:when test="image[@size='large']/text()">
+                                    <img src="{normalize-space(image[@size='large']/text())}" alt="{name/text()}"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <img src="images/sin.png" alt="{name/text()}"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            
                             <div class="textos">
-                                <p><a href="{url/text()}"><xsl:value-of select="artist/name/text()"/></a></p>
+                                <p><a href="{url/text()}"><xsl:value-of select="name/text()"/></a></p>
                                 <xsl:for-each select="artist">
                                     <p><xsl:value-of select="name/text()"/></p>
                                 </xsl:for-each>
