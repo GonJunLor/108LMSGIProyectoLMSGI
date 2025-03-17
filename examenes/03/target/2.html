@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+<body>
+    <h1>nombre atributo : valor</h1>
+    <form action="Fabricantes">
+        <label for="Fabricante">Fabricante </label>
+        <select name="Fabricante" id="Fabricante" >
+            <!-- for con valores -->
+            <option value="Ávila">Ávila</option>
+            <xsl:apply-templates select="dia"/>
+        </select>
+    </form>
+    <h3></h3>
+    <div id="factura"></div>
+    <h2>
+        <img src="" alt="">
+        Fabricante:
+        <!-- valor del atributo y buscar en fabricantes.xml el nombre por el codigo  -->
+    </h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>Referencia</th>
+            <th>Descripción</th>
+            <th>Fecha Entrega</th>
+            <th>Peso</th>
+            <th>Número de serie</th>
+            <th>Km Máximo</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr>
+            <td>imagen</td>
+            <td>componentexxx</td>
+        </tr>
+    </table>
+</body>
+</html>

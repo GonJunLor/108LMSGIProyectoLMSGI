@@ -1,0 +1,33 @@
+:root{
+    --color1:#c79999;
+}
+
+body { font-family: Arial, sans-serif; margin: 20px; padding: 10px; }
+#factura{
+    border: 1px solid gray;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+#factura>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td,th{
+    border: 1px solid gray;
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+table img{
+    width: 100px;
+}
+th{
+    height: 50px;
+    background-color: var(--color1);
+    color: white;
+}

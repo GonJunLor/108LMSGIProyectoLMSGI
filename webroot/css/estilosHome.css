@@ -152,9 +152,13 @@ article>a>img{
 .subtitulo {
     text-align: center;
 }
-.subtitulo>a {
+.subtitulo a {
     padding-right: 4px;
     text-decoration: none;
+    color:var(--colorTexto)
+}
+.subtitulo button{
+    margin-top: 5px;
 }
 .subtitulo>a:hover {
     background-color: var(--colorFondo3);

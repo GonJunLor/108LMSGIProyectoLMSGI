@@ -10,10 +10,10 @@
              xmlns:xs="http://www.w3.org/2001/XMLSchema"
                  
          name="package-uri"
-             package-version="1.0"
-             exclude-result-prefixes="#all"
-             expand-text="yes"
-             version="3.0">
+        package-version="1.0"
+        exclude-result-prefixes="#all"
+        expand-text="yes"
+        version="3.0">
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:output method="xml" indent="yes"/>
     <xsl:include href="../../lib/libhtml.xsl"/>
