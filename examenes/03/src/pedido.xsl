@@ -16,7 +16,7 @@
                     <!-- for con valores -->
                     <option value="Todos">Todos</option>
                     <xsl:for-each select="tractor">
-                        <option value="Ávila"><xsl:value-of select="@codigoFabricante"/></option>
+                        <option value="{.}"><xsl:value-of select="@codigoFabricante"/></option>
                     </xsl:for-each>
                 </select>
             </form>
