@@ -153,15 +153,21 @@ article>a>img{
     text-align: center;
 }
 .subtitulo a {
-    padding-right: 4px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #00a2ff;
+    color: white;
     text-decoration: none;
-    color:var(--colorTexto)
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 2px;
 }
 .subtitulo button{
     margin-top: 5px;
 }
 .subtitulo>a:hover {
-    background-color: var(--colorFondo3);
+    background-color: #0056b3;
 }
 
 /* Pie de pagína */
