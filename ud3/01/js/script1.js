@@ -12,8 +12,8 @@ function saludar() {
 
 function cambiarColor() {
     let cuerpo = document.getElementById("cuerpo")
-    var titulo = document.getElementById("titulo")
-    var boton = document.getElementById("boton2")
+    let titulo = document.getElementById("titulo")
+    let boton = document.getElementById("boton2")
 
     if (boton.value == "Fondo oscuro") {
         cuerpo.style.backgroundColor = "black"
@@ -30,6 +30,13 @@ function cambiarColor() {
 function cambiarParrafos() {
     //et parrafo = document.getElementsByClassName("parrafo")
     let parrafo = document.querySelectorAll(".parrafo")
+    let boton = document.getElementById("boton3")
+    for (let i = 0; i < parrafo.length; i++) {
+        parrafo[i].classList.toggle("estilo-modificado")
+    }
+
+    boton.value = boton.value==="Cambiar Párrafos" ? "Parrafos originales" : "Cambiar Párrafos"
+    /*
     if (control) {
         for (let i = 0; i < parrafo.length; i++) {
             parrafo[i].style.fontSize="25px"
@@ -53,5 +60,6 @@ function cambiarParrafos() {
         }
         control = true
     }
+    */
     
 }
