@@ -26,6 +26,7 @@
                 <!-- Si no se ponen comillas simples en el select, el texto da error -->
                 <xsl:with-param name="titulo" select="'07 XSLT Gonzalo Junquera Lorenzo'"/>
                 </xsl:call-template>
+                <link rel="stylesheet" href="estilos/estilos.css"/>
             </head>
             <body>
                 <h1>Predicción por municipio</h1>

@@ -1,0 +1,36 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #4f86d9;
+    text-align: center;
+    margin: 20px 0;
+}
+caption{
+    border-collapse: collapse;
+    background-color: #4f86d9;
+    color: white;
+    padding: 10px;
+}
+table{
+    border: #4f86d9 solid 2px;
+    width: 700px;
+}
+th{
+    border-collapse: collapse;
+    background-color: #95b6e9;
+    color: white;
+    font-size: small;
+    font-weight: lighter;
+}
+td{
+    border-collapse: collapse;
+    color: black;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    border-bottom: #95b6e9 solid 1px;
+}
