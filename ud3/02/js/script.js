@@ -10,6 +10,10 @@ function genera_tabla() {
         +'<label for="numerocolumnas">Número de columnas:</label>'
         +'<input type="number" id="numerocolumnas"  min="1" max="10" value="2">'
         +'<input type="button" value="Genera una tabla" onclick="genera_tabla()" />'
+        +'<footer><div>Todos los derechos reservados. Creado por: '
+        +'<a href="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/index.html">'
+        +'<address style="display: inline;">Gonzalo Junquera Lorenzo</address>'
+        +'</a></div></footer>'
 
     var tabla = document.createElement("table")
     var tbody =document.createElement("tbody")
