@@ -1,10 +1,10 @@
 const contenedor = document.getElementById('tablero');
-contenedor.innerHTML = '<div><img src="https://picsum.photos/200/300?random=1" onclick="cambiarImagen(this)"/>'
-+'<img src="https://picsum.photos/200/300?random=2" onclick="cambiarImagen(this)"/>'
-+'<img src="https://picsum.photos/200/300?random=3" onclick="cambiarImagen(this)"/></div>'
-+'<div><img src="https://picsum.photos/200/300?random=4" onclick="cambiarImagen(this)"/>'
-+'<img src="https://picsum.photos/200/300?random=5" onclick="cambiarImagen(this)"/>'
-+'<img src="https://picsum.photos/200/300?random=6" onclick="cambiarImagen(this)"/></div>';
+contenedor.innerHTML = '<div><img src="images/B.jpg" onclick="cambiarImagen(this)"/>'
++'<img src="images/B.jpg" onclick="cambiarImagen(this)"/>'
++'<img src="images/B.jpg" onclick="cambiarImagen(this)"/></div>'
++'<div><img src="images/B.jpg" onclick="cambiarImagen(this)"/>'
++'<img src="images/B.jpg" onclick="cambiarImagen(this)"/>'
++'<img src="images/B.jpg" onclick="cambiarImagen(this)"/></div>';
 
 function cambiarImagen(imagen) {
     const imagenes = [ 'https://picsum.photos/200?random=1', 

@@ -14,6 +14,7 @@ img{
     height: 150px;
     width: 150px;
     border-radius: 15px;
+    border: #dcdcdc 1px solid;
     margin: 5px;
 }
 footer{
