@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    position: relative;
+    position:relative;
 }
 input[type="number"]{
     width: 60px;
@@ -75,4 +75,22 @@ td {
         border-radius: 5px;
         position:static;
     }
+}
+/* Estilos para el pie de página */
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100vw;
+    position: fixed; /* Coloca el elemento en una posicion fija */
+    bottom: 0; /* Fija el pie de página al fondo de la ventana */
+    left: 0; /* Alinea el pie de página a la izquierda */
+}
+footer a{
+    color: #3498db;
+    text-decoration: none;
+}
+footer a:visited{
+    color: #657043;
 }
