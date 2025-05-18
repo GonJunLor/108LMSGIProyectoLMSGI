@@ -6,18 +6,23 @@ Definimos un objeto con las extensiones de los archivos y el número
 de ejercicio al que corresponde la extension menos txt.
 */
 let extensiones = {
+    1: "txt",
+    2: "txt",
     3: "html",
-    4: "xml",
     5: "html",
-    7: "xml",
+    6: "txt",
     8: "html",
-    10: "xml",
+    9: "txt",
+    13: "txt",
+    16: "txt",
+    23: "txt",
+    24: "txt",
     28: "html"
 };
 
 async function cargarConsultas() {
     for (let i = 1; i < numConsultasMostrar+1; i++) {
-        let extension = extensiones[i] || "txt";// Si no hay extensión definida, usamos "txt"
+        let extension = extensiones[i] || "xml";// Si no hay extensión definida, usamos "txt"
 
         contenedor.innerHTML += `
             <li>

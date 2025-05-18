@@ -7,3 +7,21 @@
 .clave{
     font-weight: bold;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    color: #3498db;
+    text-decoration: none;
+}
+footer a:visited{
+    color: #657043;
+}
