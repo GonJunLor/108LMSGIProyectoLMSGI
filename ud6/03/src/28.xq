@@ -9,7 +9,7 @@ declare option output:indent "yes";
           border: 1px solid #c7c7c7;
         }]]>
     </style>
-    <title>UD6-3.5 Libros-Categoría. Gonzalo Junquera Lorenzo</title>
+    <title>UD6-3.28 Libros-Categoría. Gonzalo Junquera Lorenzo</title>
 </head>
 <body>
     <h1>Bookstore</h1>

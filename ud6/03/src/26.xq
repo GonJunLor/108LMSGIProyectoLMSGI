@@ -1,11 +1,10 @@
-(:26.Mostrar todos los años en los que se ha publicado un libro eliminando 
-los repetidos. Etiquétanos con "año".:)
+(:26.Mostrar todos los años en los que se ha publicado un libro eliminando los repetidos. Etiquétanos con "año".:)
 declare option output:indent "yes"; 
-<años_publicación>
+<anyos_publicacion>
 {
-  for $x in distinct-values(/bookstore/book/year/text())
+  for $x in distinct-values(/bookstore/book/year)
   order by $x descending
   return
-    <año>{$x}</año>
+    <anyo>{$x}</anyo>
 }
-</años_publicación>
+</anyos_publicacion>

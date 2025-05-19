@@ -1,4 +1,5 @@
 let contenedor = document.getElementById("contenido");
+let indice = document.getElementById("indice");
 let numConsultasMostrar = 28;
 
 /* 
@@ -31,10 +32,10 @@ async function cargarConsultas() {
                     <a href="src/${i}.xq">Consulta</a>
                     <a href="target/${i}.${extension}">Resultado</a>
                 </div>
-                <a href="webroot/images/${i}c.png" target="_blank">
+                <a href="webroot/images/${i}c.png">
                     <img src="webroot/images/${i}c.png" alt="Consulta ${i}">
                 </a>
-                <a href="webroot/images/${i}r.png" target="_blank">
+                <a href="webroot/images/${i}r.png">
                     <img src="webroot/images/${i}r.png" alt="Resultado ${i}"> 
                 </a>
             </li>`
