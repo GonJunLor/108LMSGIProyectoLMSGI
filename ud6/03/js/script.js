@@ -21,9 +21,9 @@ let extensiones = {
     28: "html"
 };
 
-async function cargarConsultas() {
+function cargarConsultas() {
     for (let i = 1; i < numConsultasMostrar+1; i++) {
-        let extension = extensiones[i] || "xml";// Si no hay extensión definida, usamos "txt"
+        let extension = extensiones[i] || "xml";// Si no hay extensión definida, usamos "xml"
 
         contenedor.innerHTML += `
             <li>
