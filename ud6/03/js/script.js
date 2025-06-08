@@ -25,12 +25,18 @@ function cargarConsultas() {
     for (let i = 1; i < numConsultasMostrar+1; i++) {
         let extension = extensiones[i] || "xml";// Si no hay extensión definida, usamos "xml"
 
-        contenedor.innerHTML += `
+        indice.innerHTML += `
             <li>
+                <a href="#ej${i-1}">${i}</a>
+            </li>`
+
+        contenedor.innerHTML += `
+            <li id="ej${i}">
                 <div>
                     <h2>Ejercicio ${i}</h2>
                     <a href="src/${i}.xq">Consulta</a>
                     <a href="target/${i}.${extension}">Resultado</a>
+                    <a href="#ej0">Volver</a>
                 </div>
                 <a href="webroot/images/${i}c.png">
                     <img src="webroot/images/${i}c.png" alt="Consulta ${i}">
