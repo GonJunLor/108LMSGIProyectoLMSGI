@@ -1,6 +1,6 @@
 let contenedor = document.getElementById("contenido");
 let indice = document.getElementById("indice");
-let numConsultasMostrar = 28;
+let numConsultasMostrar = 9;
 
 /* 
 Definimos un objeto con las extensiones de los archivos y el número 
@@ -8,17 +8,7 @@ de ejercicio al que corresponde la extension menos txt.
 */
 let extensiones = {
     1: "txt",
-    2: "txt",
-    3: "html",
-    5: "html",
-    6: "txt",
-    8: "html",
-    9: "txt",
-    13: "txt",
-    16: "txt",
-    23: "txt",
-    24: "txt",
-    28: "html"
+    4: "txt"
 };
 
 function cargarConsultas() {
