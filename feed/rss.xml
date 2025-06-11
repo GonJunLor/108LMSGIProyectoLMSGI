@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>DAW 108 Gonzalo</title>
+        <atom:link href="https://daw108.ieslossauces.es/feed/rss.xml" rel="self" type="application/rss+xml" />
+        <link>https://daw108.ieslossauces.es</link>
+        <description>IES Los Sauces. Grado Superior DAW</description>
+        <image>
+            <url>https://daw108.ieslossauces.es/feed/images/logo.png</url>
+            <title>DAW 108 Gonzalo</title>
+            <link>https://daw108.ieslossauces.es</link>
+        </image>
+        <category>Educación</category>
+        <language>es-es</language>
+        <pubDate>Mon, 28 Oct 2024 20:19:00 +0100</pubDate>
+        <lastBuildDate>Sun, 08 Jun 2025 23:35:00 +0100</lastBuildDate>
+        <skipDays>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        <skipHours>
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>2</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+            <hour>5</hour>
+            <hour>6</hour>
+            <hour>7</hour>
+            <hour>8</hour>
+        </skipHours>
+        <copyright>2024 Gonzalo108. All right reserved.</copyright>
+        <item>
+            <title>Creación de la web</title>
+            <link>https://daw108.ieslossauces.es</link>
+            <description>Inicio de la web. Hola mundo, primer contacto con el mundo exterior.</description>
+            <category>Educación</category>
+            <pubDate>Thu, 21 Nov 2024 17:09:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Añadiendo imagen a descripción del RSS</title>
+            <link>https://daw108.ieslossauces.es/feed/images/ies.png</link>
+            <description>
+            <![CDATA[
+            <img src="https://daw108.ieslossauces.es/feed/images/ies.png" width="82" height="40" alt="Logo IES"/>
+            <p>Texto despues de imagen</p>
+            ]]>
+            </description>
+            <pubDate>Fri, 22 Nov 2024 13:45:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/feed/images/ies.png</guid>
+        </item>
+        <item>
+            <title>01.CSS en volcanes</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/01/index.html</link>
+            <description>
+            <![CDATA[
+            <img src="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/01/media/images/banner.jpeg" width="82" height="40" alt="Logo IES"/>
+            <p>Aplicación de css a la practica 01.Web de volcanes</p>
+            ]]>
+            </description>
+            <category>Educación</category>
+            <pubDate>Tue, 26 Nov 2024 20:48:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/01/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>02.2 Horario comprimido</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/02_copy/index.html</link>
+            <description>
+            <![CDATA[
+            <img src="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/02_copy/images/miniHorario.png" width="82" height="40" alt="Logo IES"/>
+            ]]>
+            Conseguir con css el efecto de superponer unos horarios sobre otro y vengan a primer plano al pasar el raton por encima en la práctica 02.2.Horario 2.0</description>
+            <category>Educación</category>
+            <pubDate>Tue, 26 Nov 2024 20:56:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/02_copy/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Añadiendo video con Enclosure a RSS</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/webroot/media/video/PerroGuia.mp4</link>
+            <enclosure url="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/webroot/media/video/PerroGuia.mp4" length="5732797" type="video/mp4"/>
+            <description>Video de un perro guia 
+            (No funcionan con la extension "Feeder - RSS Feed Reader", 
+            pero si con la extension "FeedBro")</description>
+            <category>Educación</category>
+            <pubDate>Tue, 26 Nov 2024 21:27:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/webroot/media/video/PerroGuia.mp4</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Añadiendo audio con Enclosure a RSS</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/webroot/media/audio/gatoPidiendo.mp3</link>
+            <enclosure url="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/webroot/media/audio/gatoPidiendo.mp3" length="32160" type="audio/mp3"/>
+            <description>Audio de un gato maullando 
+            (No funcionan con la extension "Feeder - RSS Feed Reader", 
+            pero si con la extension "FeedBro")</description>
+            <category>Educación</category>
+            <pubDate>Tue, 26 Nov 2024 21:27:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/webroot/media/audio/gatoPidiendo.mp3</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD4.01.Archivo XML y DTD</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/01/01.xml</link>
+            <description>Creación del archivo XML asociado a un email y su código interno DTD de validación</description>
+            <category>Educación</category>
+            <pubDate>Fri, 29 Nov 2024 23:00:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/01/01.xml</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD1.01.Mapa Conceptual - Lenguajes de marcado</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud1/01/index.html</link>
+            <description>
+            <![CDATA[
+            <img src="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud1/01/images/mapa.jpeg" width="82" height="40" alt="Logo IES"/>
+            <p>Subida a mi web de la primera práctica: Mapa Conceptual - Lenguajes de marcado</p>
+            ]]>
+            </description>
+            <category>Educación</category>
+            <pubDate>Fri, 29 Nov 2024 23:35:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud1/01/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD2.04.Aplicacion de css a esta página</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/04/index.html</link>
+            <description>
+            <![CDATA[
+            <img src="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/webroot/media/images/Logo.png" width="82" height="40" alt="Logo IES"/>
+            <p>He aplicado los estilos css según vista de ejemplo</p>
+            ]]>
+            </description>
+            <category>Educación</category>
+            <pubDate>Sat, 30 Nov 2024 20:15:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/04/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD4.02. XML-DTD-Schema XML</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/02/02.xml</link>
+            <description>
+            Ejercicio hecho en clase, subido a web.
+            </description>
+            <category>Educación</category>
+            <pubDate>Mon, 02 Dec 2024 18:42:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/02/02.xml</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Añadir icono validación HTML</title>
+            <link>https://daw108.ieslossauces.es/webroot/media/images/W3C.png</link>
+            <description>
+            <![CDATA[
+            <img src="https://daw108.ieslossauces.es/webroot/media/images/W3C.png" width="82" height="40" alt="Logo IES"/>
+            <p>He añadido el enlace al validador HTML de W3C en el footer de todas las paginas</p>
+            ]]>
+            </description>
+            <category>Educación</category>
+            <pubDate>Thu, 05 Dec 2024 21:47:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/webroot/media/images/W3C.png</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD4.03. CSS aplicado a XML</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/03/03.xml</link>
+            <description>
+            Aplicación de css a un archivo xml.
+            </description>
+            <category>Educación</category>
+            <pubDate>Thu, 12 Dec 2024 22:27:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/03/03.xml</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>03 CSS a formulario de clinica</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/03/index.html</link>
+            <description>
+            <![CDATA[
+            <img src="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/03/images/logo200x181.png" width="82" height="40" alt="Logo IES"/>
+            ]]>
+            Aplicar css a la practica 3 de la unidad 2 con un estilo parecido a mi web de ejemplo.</description>
+            <category>Educación</category>
+            <pubDate>Sat, 14 Dec 2024 16:56:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/03/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD4.02.2 Creacion de esquema</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/02/02.2.xml</link>
+            <description>
+            <![CDATA[
+            <img src="https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud2/03/images/logo200x181.png" width="82" height="40" alt="Logo IES"/>
+            ]]>
+            Creacion del archivo de validadción de xml de tipo esquema.xsd para ejercicio 2.2
+            </description>
+            <category>Educación</category>
+            <pubDate>Tue, 14 Jan 2025 22:11:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/02/02.2.xml</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD4.04 xml,dtd,xsd de Universidad</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/04/04.xml</link>
+            <description>
+            Creacion de archivos xml,dtd,xsd para la gestión y validación de los datos de una universidad
+            </description>
+            <category>Educación</category>
+            <pubDate>Sun, 19 Jan 2025 19:32:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/04/04.xml</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD4.04.2 xml,dtd,xsd de Universidad Mejorado</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/04.2/04.xml</link>
+            <description>
+            Creacion de archivos xml,dtd,xsd para la gestión y validación de los datos de una universidad pero con dierentes archivos.
+            </description>
+            <category>Educación</category>
+            <pubDate>Fri, 31 Jan 2025 22:18:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud4/04.2/04.xml</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD5.01 XPath</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/01/01.html</link>
+            <description>
+            Resolución de consultas XPath sobre el archivo 04.xml de universidad de la unidad 4.
+            </description>
+            <category>Educación</category>
+            <pubDate>Fri, 31 Jan 2025 22:31:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/01/01.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD5.02. Información de alumnos</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/02/target/index.html</link>
+            <description>
+            Uso de saxon para crear pagina html a partir de un xsl con información de alumnos
+            </description>
+            <category>Educación</category>
+            <pubDate>Tue, 18 Feb 2025 20:39:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/02/target/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD5.03. Ticket</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/03/target/index.html</link>
+            <description>
+            Extraer la información de tickets en formato xml y presentarla ordenada en html.
+            </description>
+            <category>Educación</category>
+            <pubDate>Tue, 18 Feb 2025 20:40:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/03/target/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD5.04. Formulario tipo test</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/04/target/index.html</link>
+            <description>
+            Crear un formulario en html a partir de un xml con las respuestas. Se la pagina en dos versiones en función de si está corregido o no. 
+            </description>
+            <category>Educación</category>
+            <pubDate>Tue, 18 Feb 2025 20:41:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/04/target/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD5.05. XML a XML</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/05/target/index.xml</link>
+            <description>
+            Transformar un xml en otro xml extrayendo los atributos de las filas y convirtiendolos en etiquetas.
+            </description>
+            <category>Educación</category>
+            <pubDate>Tue, 18 Feb 2025 20:42:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/05/target/index.xml</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD5.06. XML a TXT</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/06/target/index.yaml</link>
+            <description>
+            Transformar la información de un xml a un txt con un formato personalizado.
+            </description>
+            <category>Educación</category>
+            <pubDate>Tue, 18 Feb 2025 20:43:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/06/target/index.yaml</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD5.07. Prediccion del tiempo</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/07/target/prediccion.html</link>
+            <description>
+            Crear pagina html para visualizar los datos del tiempo cargando imagenes a partir del xml.
+            </description>
+            <category>Educación</category>
+            <pubDate>Thu, 27 Feb 2025 20:42:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud5/07/target/prediccion.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Examen.01. 1ª Evaluación</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/Ex1ev01/index.html</link>
+            <description>
+            Resultado del primer examen de la primera evaluación.
+            </description>
+            <category>Educación</category>
+            <pubDate>Thu, 27 Feb 2025 20:50:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/Ex1ev01/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Examen.02. 1ª Evaluación</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/Ex1ev02/inicio.html</link>
+            <description>
+            Resultado del segundo examen de la primera evaluación.
+            </description>
+            <category>Educación</category>
+            <pubDate>Thu, 27 Feb 2025 20:51:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/Ex1ev02/inicio.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Examen refuerzo 2ª Evaluación (1)</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/refuerzoEx2ev/03.md</link>
+            <description>
+            Examen preparatorio de la segunda evaluacion, parte primera.
+            </description>
+            <category>Educación</category>
+            <pubDate>Fri, 14 Mar 2025 22:47:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/refuerzoEx2ev/03.md</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Examen refuerzo 2ª Evaluación (2)</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/refuerzoEx2ev02/target/NuevoJoaquinSabina.html</link>
+            <description>
+            Examen preparatorio de la segunda evaluacion, parte segunda.
+            </description>
+            <category>Educación</category>
+            <pubDate>Sat, 15 Mar 2025 11:22:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/refuerzoEx2ev02/target/NuevoJoaquinSabina.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Examen.03. 2ª Evaluación</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/03/target/pedidos.html</link>
+            <description>
+            Resultado del examen de la segunda evaluación.
+            </description>
+            <category>Educación</category>
+            <pubDate>Mon, 17 Mar 2025 11:00:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/03/target/pedidos.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD03.01. Ejemplo 1 DOM</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud3/01/01.html</link>
+            <description>
+            Crear código javascript para dar funcionalidad a botones de html por medio de funciones de javascript.
+            </description>
+            <category>Educación</category>
+            <pubDate>Wed, 02 Apr 2025 20:43:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud3/01/01.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD03.02. Creación de tablas</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud3/02/index.html</link>
+            <description>
+            Creación de tablas con javascript en funcion de los datos obtenidos de inputs.
+            </description>
+            <category>Educación</category>
+            <pubDate>Wed, 09 Apr 2025 15:36:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud3/02/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD03.03. Juego de Tablero con Imágenes</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud3/03/index.html</link>
+            <description>
+            Cambio de imágenes al dar con el ratón.
+            </description>
+            <category>Educación</category>
+            <pubDate>Tue, 29 Apr 2025 23:15:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud3/03/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD06.01. Cargar JSON en el navegador</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/01/index.html</link>
+            <description>
+            Carga nombre y edad de un archivo JSON en el navegador.
+            </description>
+            <category>Educación</category>
+            <pubDate>Mon, 19 May 2025 21:50:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/01/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD06.02. Listado de personas</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/02/index.html</link>
+            <description>
+            Carga nombre y edad de un archivo JSON en el que hay varios elementos y con javascript lo recorre y crea una lista. Añadido tambien botón para borrar el elemento.
+            </description>
+            <category>Educación</category>
+            <pubDate>Mon, 19 May 2025 21:55:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/02/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD06.03. Almacenamineto</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/03/index.html</link>
+            <description>
+            Lista de ejercicios XQuery y XSLT;
+            </description>
+            <category>Educación</category>
+            <pubDate>Mon, 19 May 2025 21:59:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/03/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD06.04. Colecciones y Updates</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/04/index.html</link>
+            <description>
+                Lista de ejercicios XQuery y XSLT;
+            </description>
+            <category>Educación</category>
+            <pubDate>Sun, 08 Jun 2025 22:35:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/04/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>UD06.05. XQuery: Colecciones</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/05/index.html</link>
+            <description>
+                Lista de ejercicios XQuery y XSLT;
+            </description>
+            <category>Educación</category>
+            <pubDate>Sun, 08 Jun 2025 22:55:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/ud6/05/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Exámen 04 - Refuerzo</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/04 - Refuerzo/index.html</link>
+            <description>
+                Lista de ejercicios XQuery y XSLT;
+            </description>
+            <category>Educación</category>
+            <pubDate>Sun, 08 Jun 2025 23:35:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/04 - Refuerzo/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+        <item>
+            <title>Exámen 04</title>
+            <link>https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/04/index.html</link>
+            <description>
+               Examen final;
+            </description>
+            <category>Educación</category>
+            <pubDate>Mon, 09 Jun 2025 10:53:00 +0100</pubDate>
+            <guid isPermaLink="false">https://daw108.ieslossauces.es/108LMSGIProyectoLMSGI/examenes/04/index.html</guid>
+            <author>gonzalo.junlor@educa.jcyl.es (Gonzalo Junquera)</author>
+        </item>
+    </channel>
+</rss>
+<!-- 
+Dias: (Mon, Tue, Wed, Thu, Fri, Sat, Sun). 
+Meses: (Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec)
+-->
